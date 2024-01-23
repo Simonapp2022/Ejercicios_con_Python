@@ -14,10 +14,10 @@ print(" Opción 2: Calcúla a/b")
 print(" Opción 3: Calcúla (a*b)/2.5 ")
 
 
-SeguirUsandolacalculadora=str(input("Quieres seguir usando la calculadora? Pulsa S si quieres seguir u otra letra, si no quieres seguir."))
+SeguirUsandolacalculadora=str(input("Quieres seguir usando la calculadora? Pulsa "S" o "s"si quieres seguir u otra letra, si no quieres seguir."))
 print("Has pulsado: ", SeguirUsandolacalculadora)
 
-while SeguirUsandolacalculadora=="S":
+while SeguirUsandolacalculadora=="S" or SeguirUsandolacalculadora=="s":
     a=float(input("Introduce el valor de a: "))
     print("El valor de a es:", a)
     b=float(input("Introduce el valor de b: "))

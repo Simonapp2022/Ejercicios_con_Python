@@ -37,13 +37,13 @@ else:
 
 #Salida por pantalla tiempo encuentro
 
-print("\n El tiempo de encuentro en horas es:", tiempoEncuentro_h)
-print("\n El tiempo de encuentro en minutos es:", tiempoEncuentro_min)
-print("\n El tiempo de encuentro en segundos es:", tiempoEncuentro_segundos)
-print("\n La distancia recorrida por el móvil1 en km es:", distanciaRecorridamov1)
-print("\n La distancia recorrida por el móvil2 en km es:", distanciaRecorridamov2)
-print("\n La acceleración del Mov1 en km/h^2 es:", acceleracionMov1)
-print("\n La acceleración del Mov2 en km/s^2 es:", acceleracionMov2)
+print("\n El tiempo de encuentro en horas es: ", tiempoEncuentro_h)
+print("\n El tiempo de encuentro en minutos es: ", tiempoEncuentro_min)
+print("\n El tiempo de encuentro en segundos es: ", tiempoEncuentro_segundos)
+print("\n La distancia recorrida por el móvil1 en km es: ", distanciaRecorridamov1)
+print("\n La distancia recorrida por el móvil2 en km es: ", distanciaRecorridamov2)
+print("\n La acceleración del Mov1 en km/h^2 es:", round(acceleracionMov1, 2))
+print("\n La acceleración del Mov2 en km/s^2 es:", round(acceleracionMov2, 2))
 print("\n El resultado es correcto")        
 
 

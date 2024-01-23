@@ -11,7 +11,7 @@ print(DicccionarioIngl_esp.items())
 # Se busca cómo se dicen en español todos los colores con values
 print(DicccionarioIngl_esp.values())
 
-# Se busca cómo se dicen en inglés todos los colores con keys
+# Se busca cómo se dice en inglés todos los colores con keys
 print(DicccionarioIngl_esp.keys())
 
 #How do you say "Black" in Spanish? Negro
